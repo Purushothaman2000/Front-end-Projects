@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+    'sm': '640px',
+    'md': '768px',
+    'lg': '1024px',
+    'xl': '1280px',
+    '2xl': '1536px',
+    'custom': '900px', 
+    'xs': '320px',// Add your own custom breakpoint here
+  },
+          
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-black ">
+   
+ <div class=" ">
+  <div class="  text-white  flex justify-between mt-2 ml-2 mb-44 ">
+    <div>
+
+    <a href="#about"><h1 class="text-2xl font-semibold hover:text-red-500 cursor-pointer">HARIHARAN</h1>
+    </a>
+
+    <P>WRITER / DIRECTOR</P>
+  </div>
+  <div class=" ">
+    <ul class=" pr-9  group ">
+      <span class="  opacity-80 group-hover:opacity-100   "><img src="menu.png" class="w-9 pt-3 ml-16 bg:m-0 " alt=""></span>
+      <li class=" text-white font-medium rounded-lg bg-red-500 ml-14 p-1 m-3 opacity-0 group-hover:opacity-85"><a href="">Home</a></li>
+      <li class=" text-white font-medium rounded-lg bg-red-500 ml-14  p-1 m-3 opacity-0 group-hover:opacity-85"><a href="#work">Work</a></li>
+      <li class= "text-white font-medium rounded-lg bg-red-500 ml-14  p-1 m-3 opacity-0 group-hover:opacity-85"><a href="#fav">Fav Films</a></li>
+      <li class=" text-white font-medium rounded-lg bg-red-500 ml-14  p-1  m-3 opacity-0 group-hover:opacity-85"><a href="#about">Contact</a></li>
+      
+    </ul>
+  </div>
+  </div>
+ </div>
+
+</div>
+
+<div class="text-white italic flex justify-center ">
+  <p class="lg:w-1/2 font-light text-3xl mt-28 w-11/12 hover:text-blue-400 cursor-pointer"  >"Cinema is a mirror that reflects the creativity behind the lens. As an Assistant Director, I strive to turn vision into reality, one frame at a time."</p>
+</div>
+<!--  -->
+    
+
+<!--  -->
+<div>
+ 
+  <div class="  mt-96 p-24 " id="work">
+   <video controls src="har.mp4" class="mb-40 w-full rounded-xl border"></video>
+   <video controls src="har1.mp4" class=" w-full rounded-xl  border" ></video>
+  </div>
+
+</div>
+
+<div>
+  <div class=" w-full h-screen p-5 mb-40 mt-36" id="fav" >
+    <h1 class="text-white text-center bg-zinc-900 p-12 mb-9 text-5xl font-bold italic">FAVORITE FILMS</h1>
+    
+    <ul class="grid grid-cols-2 " >
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border hover:text-gray-300  ">The Shawshank Redemption (1994)</li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 ">The Godfather (1972)</li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 ">The Dark Knight (2008) </li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 ">Inception (2010)  </li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 ">Forrest Gump (1994)</li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 ">Pulp Fiction (1994)  </li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 ">Fight Club (1999)</li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 ">The Matrix (1999) </li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 ">Schindler's List (1993) </li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 ">Parasite (2019) </li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border   hover:text-gray-300"> Avengers: Endgame (2019)</li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 "> Whiplash (2014)</li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300 "> The Departed (2006)</li>
+      <li class=" text-4xl font-semibold cursor-pointer hover:bg-red-900 text-pretty text-red-500  p-5 border  hover:text-gray-300  "> A Beautiful Mind (2001)</li>
+    
+      
+      
+    </ul>
+  </div>
+</div>
+<!--  -->
+
+<div class="bg-zinc-900 w-full h-full  lg:pb-16  " id="about">
+  <div class="text-red-800 pb-9  w-fit h-30 mt-96 ">
+   <div class="flex pt-9 ">
+    <img src="bro.png" class="lg:mt-9  lg:ml-56 lg:w-52 rounded-3xl 
+    w-60 h-60 ml-3 mt-9"  >
+   
+    <p class=" font-semibold text-1xl lg:text-center lg:w-1/2 lg:ml-4 lg:mt-28 
+    w-2/3 pl-4 pr-1 ">Assistant Director, Desingu Raja 2 (2023-2024)
+    As the assistant director of Desingu Raja 2, I supported the director in managing various aspects of the film's production over a period of 1.5 years. My role involved coordinating between the cast and crew, ensuring smooth communication, and maintaining the production schedule. I was responsible for overseeing rehearsals, organizing shoot logistics, and solving on-set challenges to keep the project on track. This role allowed me to refine my leadership and problem-solving skills while contributing to the successful completion of a major film project.
+    </p>
+   </div>
+  </div>
+  </div>
+
+  <div>
+    <div class="h-96 flex justify-around pt-72">
+     <a href="https:instagram.com"> <img src="instagram.png" class=" hover:transition-transform transform hover:scale-110 text-gray-600 hover:text-yellow-500 hover:shadow-xl cursor-pointer h-16"></a>
+     <a href="https://wa.me/919566955873"> <img src="whatsapp.png" class="h-16  cursor-pointer hover:scale-110 text-gray-600 hover:text-yellow-500 hover:shadow-xl"></a>
+     <a href="https:gmail.com"> <img src="gmail.png" class="h-16 cursor-pointer hover:scale-110 text-gray-600 hover:text-yellow-500 hover:shadow-xl "></a>
+    </div>
+  </div>
+ 
+</body>
+</html>
