@@ -8,29 +8,32 @@
 </head>
 <body class="bg-black">
 
-    <div class="bg-cover bg-center h-screen" 
+    <div class=" lg:bg-fixed lg:bg:bg-cover lg:bg-center lg:h-screen  bg-fixed bg-contain h-96" 
     style="background-image: url('bg1.jpg');">
 
-    <div class="text-white flex justify-between ml-5 pt-5">
+    <div class="text-white flex justify-between ml-5 pt-7">
         <div>
         <h1 class="font-bold text-3xl font-mono subpixel-antialiased  cursor-pointer hover:text-red-800  ">HARIHARAN</h1>
         <p class="font-semibold">Director / Writer</p>
     </div>
     <div>
-        <ul class="flex mr-10 font-semibold text-sm  " >
-            <li class="mr-9 cursor-pointer p-2 hover:bg-red-600 rounded-lg" ><a href="#work" >WORK</a></li>
-            <li class="mr-9 cursor-pointer p-2 hover:bg-red-600 rounded-lg "><a href="#about">ABOUT</a></li>
-            <li class="mr-9 cursor-pointer p-2 hover:bg-red-600   rounded-lg"><a href="#contact">CONTACT</a></li>
+        <ul class="   lg:flex  ml-8 font-semibold text-sm group   " >
+            <span class="  lg:hidden  "><img class=" " src="menu (1).png" alt="" width="30"></span>
+            <li class="  sm:bg-red-800 sm:mb-4 sm:mt-5 sm:opacity-0 sm:transition-opacity sm:duration-300 sm:group-hover:opacity-100 lg:opacity-100   mr-9 cursor-pointer p-2 hover:bg-red-600 rounded-lg" ><a href="#work" >WORK</a></li>
+            <li class=" sm:bg-red-800 sm:mb-4 sm:mt-5 sm:opacity-0 sm:transition-opacity sm:duration-300 sm:group-hover:opacity-100  lg:opacity-100 mr-9 cursor-pointer p-2 hover:bg-red-600 rounded-lg "><a href="#about">ABOUT</a></li>
+            <li class="  sm:bg-red-800 sm:mb-4 sm:mt-5 sm:opacity-0 sm:transition-opacity sm:duration-300 sm:group-hover:opacity-100 lg:opacity-100 mr-9 cursor-pointer p-2 hover:bg-red-600   rounded-lg"><a href="#contact">CONTACT</a></li>
+          
         </ul>
+        
     </div>
     </div>
 
   
 </div>
 <!--  -->
-<div class="bg-black-600 border border-t-2  rounded-lg " id="work">
+<div class="bg-black-600 border border-t-2  rounded-lg ">
    
-    <div class="flex pt-10 justify-evenly pb-10 w-1/2 ">
+    <div class="flex pt-10 justify-evenly pb-10 w-1/2 "  id="work">
         <video controls autoplay mute class="p-9 border-r-2" >
             <source class="" src="har.mp4">
             
@@ -54,11 +57,9 @@
 </div>
 <!--  --> 
 
-<div class="flex justify-center
-     mt-20 rounded-s-2xl
-"  >
-    <img class="border rounded-l-full" src="bro.png" >
-    <img src="bro.png" class="rounded-r-full" >
+<div class="flex lg:justify-center lg:mt-20 lg:rounded-s-2xl   "  >
+    <img class="border rounded-l-full sm:w-1/2 " src="bro.png" >
+    <img src="bro.png" class="rounded-r-full sm:w-1/2" >
 </div>
 
 <div class=" flex justify-around mt-48  mb-8 bg-black text-white " id="contact">
