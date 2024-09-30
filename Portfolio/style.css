@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin: 0;
+padding: 0;
+font-family: "Poppins", sans-serif; 
+scroll-behavior: smooth;
+
+}
+
+:root{
+    --primary-color:#001f3f;
+    --secondary-color:#000;
+
+   
+} 
+
+ .dark-theme{
+    --primary-color:#000;
+    --secondary-color:#001f3f:
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+
+}
+
+
+/* Custom Styles */
+body {
+background-color:var(--primary-color); /* Navy Blue */
+color: #ffffff; /* Gold */
+}
+
+h1,
+h2,
+h3 {
+    color: #cc9e06; /* Navy Blue for headings for consistency */
+}
+
+a {
+    color: #bfd1bf; /* Light Gray */
+    
+   
+}
+
+a:hover {
+    color: #bd3737; /* Navy Blue on hover for links */
+}
+
+.button {
+    background-color: #003366; /* Navy Blue button background */
+    color: #FFFFFF; /* White text color for contrast */
+    padding: 12px 24px;
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.button:hover {
+background-color: #000000; /* Change to Bright Orange on hover */
+color: rgb(158, 170, 102);
+font-weight: bold;
+transform: scale(1.05); /* Slightly scale up on hover */
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.card {
+    border: 1px solid #003366; /* Navy Blue border for card separation */
+    transition: transform 0.3s ease; /* Smooth transform transition */
+    animation: fadeIn 0.5s ease forwards; /* Fade-in animation */
+    opacity: 0; /* Initially hidden until animated */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fade in to visible */
+    }
+}
+
+/* Scale Up Animation for Projects */
+.project {
+    animation: scaleUp 0.3s ease forwards; /* Scale-up animation for projects */
+    opacity: 0; /* Initially hidden until animated */
+}
+
+@keyframes scaleUp {
+    to {
+        opacity: 1; /* Fade in to visible */
+        transform: scale(1); /* Scale to original size */
+    }
+}
+
+/* Dark Mode */
+
