@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Purushothaman | Frontend Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+    <style>
+      
+    </style>
+</head>
+
+<body class="">
+    <!-- Navigation Bar -->
+    <header class="bg-inherit p-5 shadow-xl sticky top-0 z-50">
+        <nav class="flex flex-wrap justify-center items-center">
+            <!-- Logo / Dark Mode Icon -->
+          
+            <!-- Navigation Links -->
+            <div class="w-full mt-3 lg:mt-0 lg:w-auto flex justify-center lg:justify-end">
+                <div class="flex flex-col lg:flex-row lg:space-x-5 space-y-3 lg:space-y-0">
+                    <a href="#home" class="transition-transform ease-in-out hover:scale-125">Home</a>
+                    <a href="#about" class="transition-transform ease-in-out hover:scale-125">About</a>
+                    <a href="#skills" class="transition-transform ease-in-out hover:scale-125">Skills</a>
+                    <a href="#portfolio" class="transition-transform ease-in-out hover:scale-125">Portfolio</a>
+                    <a href="#contact" class="transition-transform ease-in-out hover:scale-125">Contact</a>
+                </div>
+                <img class="h-6  lg:ml-9 ml-auto cursor-pointer transition-transform ease-in-out hover:scale-125" src="moon.png" alt="dark_mode" id="icon">
+    
+            </div>
+           
+        </nav>
+    </header>
+
+    
+
+    <!-- Landing Page Section -->
+    <section class="lg:flex lg:justify-center mt-44 w-2/3 mx-auto text-center" id="home">
+        <div class="hidden lg:block">
+            <img class="lg:w-96 w-56 ml-24 rounded-full" src="profile.jpg" alt="Profile Image">
+        </div>
+        <div class="mt-28 lg:ml-24 w-fit">
+            <p class="pb-3">Hello, I'm</p>
+            <h1 class="pb-3 text-2xl lg:text-5xl font-semibold">Purushothaman</h1>
+            <h2 class="pb-3 lg:text-2xl font-medium text-gray-400">Frontend Developer</h2>
+            <div class="flex justify-center space-x-3 mt-6">
+                <a href="your-cv-link" class="button">Download CV</a>
+                <a href="#contact" class="button">Contact Info</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="mt-96 text-center" id="about">
+        <div class="pt-14">
+            <p>Get To Know More</p>
+            <h2 class="font-semibold text-5xl">About Me</h2>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 pt-14 mt-32 lg:px-40">
+            <div class="">
+            <h3 class="font-semibold text-3xl mb-4">My Journey</h3>
+                <p class=" pl-6 pr-2 text-white">I'm a passionate Frontend Developer with a love for creating user-friendly web applications. With a strong foundation in HTML, CSS, and JavaScript, I enjoy turning ideas into reality through code.</p>
+                <p class=" pl-6 pr-2 text-white">My mission is to make the web accessible and enjoyable for everyone. I am continuously learning and adapting to new technologies, striving to improve my skills and expand my knowledge.</p>
+            </div>
+            <!-- Education Section -->
+            <div class="p-5 lg:p-10 border  border-black rounded-xl hover:bg-slate-800 cursor-pointer relative group">
+                <img class="mx-auto" src="education.png" alt="Education Icon">
+                <h3 class="font-bold text-2xl">Education</h3>
+                <p>Bacheloer of Science</p>
+                <p class="mt-2 text-white transition-all  group-hover:ease-in-out duration-100 max-h-0 overflow-hidden group-hover:max-h-32 opacity-0 group-hover:opacity-100">
+                    B.Sc. in Computer Science from Thiruvalluvar University, graduated in 2020. Developed a solid foundation in programming and web development, focusing on creating user-friendly applications.                                 .
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="mt-52 text-center" id="skills">
+        <div>
+            <p>What Skills I Have</p>
+            <h2 class="font-semibold text-5xl">My Skills</h2>
+        </div>
+        <div class="lg:flex justify-center pt-8 space-y-9 lg:space-y-0 lg:space-x-12 mt-32">
+            <!-- Frontend Development Card -->
+            <div class="card w-auto p-9 rounded-xl shadow-lg space-y-5">
+                <h3 class="lg:text-3xl font-medium">Frontend Development</h3>
+                <div class="space-y-5 mt-5">
+                    <article class="flex items-center">
+                        <img src="checkmark.png" class="inline-block h-5 w-5 mr-3" alt="Checkmark">
+                        <span class="text-2xl">HTML</span>
+                        <p class="text-gray-400 ml-4">Intermediate</p>
+                    </article>
+                    <article class="flex items-center">
+                        <img src="checkmark.png" class="inline-block h-5 w-5 mr-3" alt="Checkmark">
+                        <span class="text-2xl">CSS</span>
+                        <p class="text-gray-400 ml-4">Intermediate</p>
+                    </article>
+                    <article class="flex items-center">
+                        <img src="checkmark.png" class="inline-block h-5 w-5 mr-3" alt="Checkmark">
+                        <span class="text-2xl">JavaScript</span>
+                        <p class="text-gray-400 ml-4">Intermediate</p>
+                    </article>
+                    <article class="flex items-center">
+                        <img src="checkmark.png" class="inline-block h-5 w-5 mr-3" alt="Checkmark">
+                        <span class="text-2xl">TailwindCSS</span>
+                        <p class="text-gray-400 ml-4">Intermediate</p>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Tools & Technologies Card -->
+            <div class="card w-auto p-9 rounded-xl shadow-lg space-y-5">
+                <h3 class="lg:text-3xl font-medium">Tools & Technologies</h3>
+                <div class="space-y-5 mt-5">
+                    <article class="flex items-center">
+                        <img src="checkmark.png" class="inline-block h-5 w-5 mr-3" alt="Checkmark">
+                        <span class="text-2xl">GitHub</span>
+                        <p class="text-gray-400 ml-4">Version Control</p>
+                    </article>
+                    <article class="flex items-center">
+                        <img src="checkmark.png" class="inline-block h-5 w-5 mr-3" alt="Checkmark">
+                        <span class="text-2xl">VS Code</span>
+                        <p class="text-gray-400 ml-4">Code Editor</p>
+                    </article>
+                    <article class="flex items-center">
+                        <img src="checkmark.png" class="inline-block h-5 w-5 mr-3" alt="Checkmark">
+                        <span class="text-2xl">Excel</span>
+                        <p class=" text-gray-400 ml-4">Productivity</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <!-- Portfolio Section -->
+<section class="mt-52 text-center" id="portfolio">
+    <div>
+        <p>Some Of My Works</p>
+        <h2 class="font-semibold text-5xl">My Portfolio</h2>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-14">
+        <div class="project border border-gray-300 rounded-lg p-4 transition-all duration-300 hover:scale-105">
+            <img src="portfolio.jpg" alt="Project 1" class="w-full h-fit object-cover rounded-3xl   ">
+            <h3 class="font-bold mt-2">Portfolio</h3>
+            <p class="text-gray-200">I developed a responsive front-end portfolio to showcase my skills and projects. The design features an intuitive layout that highlights my work as a web developer. I implemented HTML, CSS, JavaScript, and Tailwind CSS to create a professional, clean, and visually appealing user experience. Key sections include my contact details with minimalistic icon-based design, without text alongside icons, to maintain a modern aesthetic. The portfolio also includes images for each project, offering a clear visual representation of my work.</p>
+            <button class="px-6 py-1 mt-2 rounded-2xl font-light border hover:bg-red-600  border-white">Github</button>
+            <button class="px-6 py-1 mt-2 rounded-2xl font-light border hover:bg-red-600  border-white">Demo</button>
+        </div>
+        <div class="project border border-gray-300 rounded-lg p-4 transition-all duration-300 hover:scale-105">
+            <img src="calculator.jpg" alt="Project 2" class=" rounded-3xl   w-full h-fit object-cover l">
+            <h3 class="font-bold mt-2">Project Title 2</h3>
+            <p class="text-gray-200">I developed a basic calculator using HTML, CSS, and JavaScript. The calculator performs standard arithmetic operations like addition, subtraction, multiplication, and division. It features a clean and responsive interface with a modern design, ensuring usability across different devices. The logic is handled through JavaScript, allowing for real-time calculations with button clicks, and includes error handling for invalid operations like division by zero.</p>
+            <button class="px-6 py-1 mt-8 rounded-2xl font-light border hover:bg-red-600  border-white">Github</button>
+            <button class="px-6 py-1 mt-8 rounded-2xl font-light border hover:bg-red-600  border-white">Demo</button>
+        </div>
+        <div class="project border border-gray-300 rounded p-4 transition-all duration-300 hover:scale-105">
+            <img src="weather.png" alt="Project 3" class="w-full h-fit object-cover  ">
+            <h3 class="font-bold mt-2">Project Title 3</h3>
+            <p class="text-gray-200">I built a responsive weather app using HTML, CSS, and JavaScript. The app fetches real-time weather data from a public API, providing users with current temperature, humidity, and weather conditions for any searched location. It features a clean and user-friendly interface, with visual cues like weather icons and background changes to match the weather conditions. The app is designed to work seamlessly on various devices, ensuring a smooth user experience.</p>
+            <button class="px-6 py-1 mt-8 rounded-2xl font-light border hover:bg-red-600  border-white">Github</button>
+            <button class="px-6 py-1 mt-8 rounded-2xl font-light border hover:bg-red-600  border-white">Demo</button>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="mt-52 text-center" id="contact">
+        <div>
+            <p class="text-lg">Get In Touch</p>
+            <h2 class="font-semibold text-5xl">Contact Me</h2>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center space-x-0 md:space-x-10 mt-14">
+            <!-- Email Section -->
+            <div class="flex flex-col items-center transition-transform duration-200 hover:scale-105 mb-10 md:mb-0">
+                <a href="mailto:purushothaman.arm@gmail.com">
+                    <img src="gmail.png" alt="Email Icon" class="h-12 mb-2">
+                </a>
+                <span class="text-gray-300 text-lg md:text-xl">purushothaman.arm@gmail</span>
+            </div>
+            <!-- Phone Section -->
+            <div class="flex flex-col items-center transition-transform duration-200 hover:scale-105 mb-10 md:mb-0">
+                <a href="tel:+919698355713">
+                    <img src="whatsapp.png" alt="Phone Icon" class="h-12 mb-2">
+                </a>
+                <span class="text-gray-300 text-lg md:text-xl">+91 96983 55713</span>
+            </div>
+            <!-- GitHub Section -->
+            <div class="flex flex-col items-center transition-transform duration-200 hover:scale-105">
+                <a href="https://github.com/your-github" target="_blank">
+                    <img src="github.png" alt="GitHub Icon" class="h-12 mb-2">
+                </a>
+                <span class="text-lg text-gray-200 md:text-xl">GitHub</span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="mt-28 p-5 text-center">
+        <p>© 2024 Purushothaman. All Rights Reserved.</p>
+    </footer>
+
+    
+</body>
+
+</html>
